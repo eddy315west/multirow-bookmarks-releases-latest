@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Multirow Bookmarks (5 Rows)",
+  "version": "1.0.1",
+  "author": "Eddy315West",
+  "description": "Firefox-style multi-row bookmarks page compatible with Brave.",
+  
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "multirow-bookmarks@eddy315west",
+      "strict_min_version": "146.0"
+    }
+  },
+  
+  "permissions": [
+    "bookmarks"
+  ],
+  
+  "action": {
+    "default_title": "Open Multirow Bookmarks",
+    "default_popup": "popup.html"
+  }
+}
